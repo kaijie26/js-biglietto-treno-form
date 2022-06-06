@@ -5,11 +5,73 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: #b91450;
+}
+
 .ticket{
-    display: none
+    display: none;
     
 }
 
 .ticket.active{
     display: block 
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+.user-form{
+    background-color: white;
+}
+
+.form-item label{
+    display: block;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+    color: #b91450;
+}
+
+.user-info{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.user-form > .form-item{
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+h2{
+    color: white;
+    text-align: center;
+}
+
+.form-item button{
+    color: #b91450;
+}
+
+.ticket-info{
+    background-color: white;
+    padding: 1rem;
+    
+}
+
+.ticket-info > div{
+    display: inline-block;
+    padding-top: 1rem;
+    padding-right: 2rem;
+}
+
+.ticket-info span{
+    display: block;
+}
+
+.ticket-info :nth-child(2){
+    background-color: gray;
+    font-weight: bold;
 }
